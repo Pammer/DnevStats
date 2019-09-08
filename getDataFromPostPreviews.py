@@ -63,4 +63,3 @@ def getData(login):
         sheet.column_dimensions[col].width = value
     mywb.save('results_{}.xlsx'.format(login))
 
-#getData('ТЬМА')
